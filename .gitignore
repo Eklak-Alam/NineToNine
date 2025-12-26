@@ -1,0 +1,77 @@
+# =================================
+# GLOBAL (OS / EDITOR)
+# =================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# =================================
+# FRONTEND (Next.js)
+# =================================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.vercel/
+
+# Frontend env files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Frontend logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/*.log
+
+# =================================
+# BACKEND (Node.js / Express)
+# =================================
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/coverage/
+
+# Backend env files
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.test
+backend/.env.production
+
+# Backend logs
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/pnpm-debug.log*
+backend/*.log
+backend/logs/
+
+# =================================
+# CACHE / TEMP
+# =================================
+frontend/.cache/
+backend/.cache/
+.npm/
+.pnpm-store/
+
+# =================================
+# OPTIONAL: lock files (KEEP ONLY ONE TYPE)
+# =================================
+# frontend/yarn.lock
+# backend/yarn.lock
+# frontend/pnpm-lock.yaml
+# backend/pnpm-lock.yaml
+# frontend/package-lock.json
+# backend/package-lock.json
+
+# =================================
+# MISC
+# =================================
+*.tsbuildinfo
