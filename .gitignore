@@ -31,7 +31,7 @@ frontend/pnpm-debug.log*
 frontend/*.log
 
 # =================================
-# BACKEND (Node.js / Express)
+# BACKEND (Node.js / Express)hrrndbrbdnr
 # =================================
 backend/node_modules/
 backend/dist/
