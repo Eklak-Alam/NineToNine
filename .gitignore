@@ -16,7 +16,7 @@ frontend/out/
 frontend/build/
 frontend/.vercel/
 
-# Frontend env files
+# Frontend env fileshrjfnfnf
 frontend/.env
 frontend/.env.local
 frontend/.env.development.local
